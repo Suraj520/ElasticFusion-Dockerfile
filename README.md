@@ -1,9 +1,8 @@
 # Modified README
 1. This has been modified for building co_fusion(https://github.com/martinruenz/co-fusion). Evaluation on pre-recorded samples have been done.
-2. Refer demo_video directory for the demo_videos created from pre-recorded samples.
-3. The Co_fusion binary is located inside the docker in the path : /opt/Co_fusion/build/GUI/build; One can then execute original readme's command by replacing Co_Fusion by ElasticFusion.
-4. Pre-recorded sample's link: https://github.com/martinruenz/co-fusion#real-asus-xtion-sequences-in-klg-format
-
+2. The Co_fusion binary is located inside the docker in the path : /opt/Co_fusion/build/GUI/build; One can then execute original readme's command by replacing Co_Fusion by ElasticFusion.
+3. Pre-recorded sample's link: https://github.com/martinruenz/co-fusion#real-asus-xtion-sequences-in-klg-format
+4. Output on pre-recorded sample: https://drive.google.com/file/d/1tmQ22s7O1N1cy9Tmoa8suvP0j8MIkqAd/view?usp=sharing
 # ElasticFusion Dockerfile
 
 Dockerfile for use of [ElasticFusion](https://github.com/mp3guy/ElasticFusion) with RealSense
