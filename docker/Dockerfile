@@ -28,7 +28,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /opt
 
-RUN git clone https://github.com/stevenlovegrove/Pangolin.git \
+RUN git clone https://github.com/aiqu/Pangolin.git \
    && cd Pangolin \
    && mkdir build && cd build \
    && cmake .. -DAVFORMAT_INCLUDE_DIR="" \
@@ -49,7 +49,7 @@ RUN git clone https://github.com/Daichou/ElasticFusion.git \
    && make -j8 \
    && cd ../../GUI \
    && mkdir build && cd build \
-   && cmake -DWITH_REALSENSE=ON ../src \
+   && cmake -DWITH_REALSENSE=OFF ../src \
    && make -j8
 
 ENV PATH $PATH:/opt/ElasticFusion/GUI/build/
